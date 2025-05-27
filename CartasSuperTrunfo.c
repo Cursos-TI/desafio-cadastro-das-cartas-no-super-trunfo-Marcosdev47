@@ -28,6 +28,60 @@ int main() {
     float pib2;
     int pontosTur2;
 
+    // Leitura dos dados da carta 1
+
+    printf("Informe os dados da Carta 1:\n");
+    
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado1);
+    
+    printf("Código (ex: A01): ");
+    scanf("%3s", codigo1);
+    getchar(); // Limpa o newline após o código
+    
+    printf("Nome da Cidade: ");
+    scanf("%49[^\n]", nomeCidade1);
+    getchar(); // Limpa o newline após o nome
+    
+    printf("População: ");
+    scanf("%d", &populacao1);
+    
+    printf("Área (em km²): ");
+    scanf("%f", &area1);
+    
+    printf("PIB: ");
+    scanf("%f", &pib1);
+    
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTur1);
+
+    // Leitura dos dados da carta 2
+
+    printf("\nInforme os dados da Carta 2:\n");
+    
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado2);
+    
+    printf("Código (ex: B02): ");
+    scanf("%3s", codigo2);
+    getchar(); // Limpa o newline após o código
+    
+    printf("Nome da Cidade: ");
+    scanf("%49[^\n]", nomeCidade2);
+    getchar(); // Limpa o newline após o nome
+    
+    printf("População: ");
+    scanf("%d", &populacao2);
+    
+    printf("Área (em km²): ");
+    scanf("%f", &area2);
+    
+    printf("PIB: ");
+    scanf("%f", &pib2);
+    
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTur2);
+
 
 
 
