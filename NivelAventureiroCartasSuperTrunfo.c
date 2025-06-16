@@ -25,4 +25,40 @@ int main() {
     float densidade2;
     float pibPerCapita2;
 
-    
+    // Leitura dos dados da Carta 1
+    printf("\nDigite os dados da Carta 1:\n");
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado1);
+    getchar(); // Limpa o buffer
+    printf("Código da Carta (ex: A01): ");
+    scanf(" %4s", codigo1);
+    getchar(); // Limpa o buffer
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade1);
+    printf("População: ");
+    scanf("%d", &populacao1);
+    printf("Área (em km²): ");
+    scanf("%f", &area1);
+    printf("PIB (em bilhões de reais): ");
+    scanf("%lf", &pib1);
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicos1);
+
+    // Leitura dos dados da Carta 2
+    printf("\nDigite os dados da Carta 2:\n");
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado2);
+    getchar(); // Limpa o buffer
+    printf("Código da Carta (ex: A01): ");
+    scanf(" %4s", codigo2);
+    getchar(); // Limpa o buffer
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade2);
+    printf("População: ");
+    scanf("%d", &populacao2);
+    printf("Área (em km²): ");
+    scanf("%f", &area2);
+    printf("PIB (em bilhões de reais): ");
+    scanf("%lf", &pib2);
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicos2);
