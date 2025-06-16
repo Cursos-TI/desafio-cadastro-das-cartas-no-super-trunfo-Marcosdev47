@@ -18,3 +18,15 @@ int main() {
     int pontosTuristicos1;
     float densidade1;
     float pibPerCapita1;
+
+   // Declaração de variáveis para a Carta 2
+    char estado2;
+    char codigo2[4];
+    char nomeCidade2[50];
+    int populacao2;
+    float area2;
+    double pib2;
+    int pontosTuristicos2;
+    float densidade2;
+    float pibPerCapita2;
+
