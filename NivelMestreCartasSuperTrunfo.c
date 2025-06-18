@@ -64,3 +64,13 @@ int main() {
     scanf("%lf", &pib2);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
+
+    // Cálculos da Carta 1
+    densidade1 = populacao1 / area1;
+    pibPerCapita1 = (pib1 * 1e9) / populacao1;
+    superPoder1 = (float)populacao1 + area1 + (float)(pib1 * 1e9) + pontosTuristicos1 + pibPerCapita1 + (1.0f / densidade1);
+
+    // Cálculos da Carta 2
+    densidade2 = populacao2 / area2;
+    pibPerCapita2 = (pib2 * 1e9) / populacao2;
+    superPoder2 = (float)populacao2 + area2 + (float)(pib2 * 1e9) + pontosTuristicos2 + pibPerCapita2 + (1.0f / densidade2);
